@@ -1,15 +1,108 @@
-<html>
+<!DOCTYPE html>
+<html lang="id">
 <head>
-<title>
-Home Page
-</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Nama Anda] - Profil Pribadi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-<li>
-test
-</li>
-<a href="./beranda/">Ke Beranda</a>
-<a href="./main/">Ke Beranda</a>
-</body>
 
+    <header class="hero">
+        <div class="container">
+            <img src="images/profile.jpg" alt="Foto Profil [Nama Anda]" class="profile-img">
+            <h1>Halo, Saya [Nama Lengkap Anda]</h1>
+            <p class="tagline">[Judul Anda, contoh: Web Developer | Desainer Grafis | Penulis]</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#skills">Keahlian</a></li>
+                    <li><a href="#portfolio">Portofolio</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah seorang [pekerjaan Anda, contoh: pengembang web front-end] yang bersemangat dalam [minat Anda, contoh: menciptakan pengalaman pengguna yang intuitif dan visual yang menarik]. Saya memiliki pengalaman dalam [sebutkan beberapa teknologi atau bidang spesifik, contoh: HTML5, CSS3, JavaScript, dan pengembangan responsif].</p>
+            <p>Saya selalu termotivasi untuk belajar hal baru dan mencari tantangan yang memungkinkan saya untuk terus berkembang di bidang [bidang Anda].</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2>Keahlian Saya</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Desain UI/UX</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-figma"></i>
+                    <h3>Figma</h3>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>Portofolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="images/project1.jpg" alt="Proyek 1 - Judul Proyek">
+                    <h3>Judul Proyek 1</h3>
+                    <p>Deskripsi singkat tentang proyek ini. Sebutkan teknologi yang digunakan dan tujuan proyek. Contoh: "Website e-commerce responsif dibangun dengan HTML, CSS, dan sedikit JS untuk optimasi."</p>
+                    <a href="https://github.com/username/project1" target="_blank" class="btn-link">Lihat di GitHub <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/project2.jpg" alt="Proyek 2 - Judul Proyek">
+                    <h3>Judul Proyek 2</h3>
+                    <p>Deskripsi singkat tentang proyek ini. Contoh: "Desain UI/UX aplikasi mobile untuk startup kuliner, fokus pada user flow yang intuitif."</p>
+                    <a href="https://dribbble.com/yourproject2" target="_blank" class="btn-link">Lihat Desain <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2>Hubungi Saya</h2>
+            <p>Tertarik untuk berkolaborasi atau ingin bertanya lebih lanjut? Jangan ragu untuk menghubungi saya!</p>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:emailanda@example.com">[emailanda@example.com]</a></p>
+                <p><i class="fas fa-phone"></i> Telepon: [Nomor Telepon Anda (Opsional)]</p>
+            </div>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/[username_linkedin]" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/[username_github]" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/[username_twitter]" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/[username_instagram]" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 [Nama Lengkap Anda]. Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+</body>
 </html>
