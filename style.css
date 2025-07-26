@@ -3,7 +3,7 @@ header.nama {
     color: #fff;
     padding: 1rem 0;
     text-align: center; /* Ini yang membuat teks di dalam header menjadi di tengah */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 /* Styling untuk elemen navigasi secara keseluruhan */
