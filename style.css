@@ -5,3 +5,52 @@ header.nama {
     text-align: center; /* Ini yang membuat teks di dalam header menjadi di tengah */
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
+
+/* Styling untuk elemen navigasi secara keseluruhan */
+.list {
+    background-color: #333; /* Warna latar belakang gelap untuk kontras yang baik */
+    padding: 10px 0; /* Sedikit padding di atas dan bawah */
+    font-family: Arial, sans-serif; /* Font yang mudah dibaca */
+}
+
+/* Styling untuk daftar tak berurutan di dalam navigasi */
+.list ul {
+    list-style-type: none; /* Menghilangkan bullet point default */
+    margin: 0; /* Menghilangkan margin default */
+    padding: 0; /* Menghilangkan padding default */
+    text-align: center; /* Memusatkan item navigasi */
+}
+
+/* Styling untuk setiap item daftar (<li>) */
+.list li {
+    display: inline-block; /* Membuat item tampil dalam satu baris */
+    margin: 0 15px; /* Memberi jarak antar item */
+}
+
+/* Styling untuk tautan (<a>) di dalam item daftar */
+.list li a {
+    color: white; /* Warna teks putih */
+    text-decoration: none; /* Menghilangkan garis bawah default pada tautan */
+    padding: 8px 15px; /* Padding di dalam tautan untuk area klik yang lebih besar */
+    display: block; /* Membuat tautan mengisi seluruh area padding */
+    transition: background-color 0.3s ease; /* Transisi halus saat hover */
+    border-radius: 5px; /* Sudut sedikit membulat */
+}
+
+/* Styling saat tautan dihover (mouse di atas tautan) */
+.list li a:hover {
+    background-color: #575757; /* Warna latar belakang saat dihover */
+    color: #ffd700; /* Warna teks saat dihover (opsional, bisa diganti) */
+}
+
+/* Styling untuk perangkat mobile (contoh sederhana) */
+@media screen and (max-width: 600px) {
+    .list li {
+        display: block; /* Membuat item kembali ke satu baris per item di layar kecil */
+        margin: 10px 0; /* Menambah jarak vertikal antar item */
+    }
+
+    .list ul {
+        text-align: left; /* Teks rata kiri di layar kecil */
+    }
+}
